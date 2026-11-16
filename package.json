@@ -1,0 +1,9 @@
+{
+  "name": "code-file-share",
+  "version": "1.0.1",
+  "description": "Code & File Share - แชร์โค้ดและไฟล์ผ่านลิงก์",
+  "main": "index.js",
+  "scripts": { "start": "node index.js", "start:dev": "node --watch index.js" },
+  "engines": { "node": ">=22.13" },
+  "dependencies": { "express": "^4.19.2", "multer": "^2.0.0" }
+}
